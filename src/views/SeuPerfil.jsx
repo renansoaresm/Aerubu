@@ -28,7 +28,6 @@ class SeuPerfil extends React.Component {
                 </CardHeader>
                 <CardBody>
                   <Form>
-
                     <Row>
                       <Col className="pr-md-1" md="6">
                         <FormGroup>

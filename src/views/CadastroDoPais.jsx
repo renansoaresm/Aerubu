@@ -7,7 +7,6 @@ import {
   CardHeader,
   CardBody,
   CardFooter,
-  CardText,
   FormGroup,
   Form,
   Input,
@@ -77,7 +76,7 @@ class CadastroDoPais extends React.Component {
                 </CardFooter>
               </Card>
             </Col>
-            <Col md="4"> 
+            <Col md="4">
             </Col>
           </Row>
         </div>
