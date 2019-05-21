@@ -113,22 +113,9 @@ class SeuPerfil extends React.Component {
                     <p className="description">Gerente</p>
                   </div>
                   <div className="card-description">
-                    O home dos homens
+                    Como gerente, sou responsável por administrar os dados referentes a infraestrutura do sistema.
                   </div>
                 </CardBody>
-                <CardFooter>
-                  <div className="button-container">
-                    <Button className="btn-icon btn-round" color="facebook">
-                      <i className="fab fa-facebook" />
-                    </Button>
-                    <Button className="btn-icon btn-round" color="twitter">
-                      <i className="fab fa-twitter" />
-                    </Button>
-                    <Button className="btn-icon btn-round" color="google">
-                      <i className="fab fa-google-plus" />
-                    </Button>
-                  </div>
-                </CardFooter>
               </Card>
             </Col>
           </Row>

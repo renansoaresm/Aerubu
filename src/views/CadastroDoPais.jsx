@@ -60,8 +60,8 @@ class CadastroDoPais extends React.Component {
                         <FormGroup>
                           <label>Quantidade da população</label>
                           <Input
-                            defaultValue="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09"
-                            placeholder="Home Address"
+                            defaultValue=""
+                            placeholder=""
                             type="number"
                           />
                         </FormGroup>

@@ -1,16 +1,12 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-// javascript plugin used to create scrollbars on windows
+// javascript plugin used to create scrollbars on window
 import PerfectScrollbar from "perfect-scrollbar";
-
 // core components
 import AdminNavbar from "components/Navbars/AdminNavbar.jsx";
 import Footer from "components/Footer/Footer.jsx";
 import Sidebar from "components/Sidebar/Sidebar.jsx";
-import FixedPlugin from "components/FixedPlugin/FixedPlugin.jsx";
-
 import routes from "routes.js";
-
 import logo from "assets/img/react-logo.png";
 
 var ps;
@@ -99,8 +95,8 @@ class Admin extends React.Component {
             routes={routes}
             bgColor={this.state.backgroundColor}
             logo={{
-              outterLink: "https://www.creative-tim.com/",
-              text: "Creative Tim",
+              outterLink: "",
+              text: "Aerubu",
               imgSrc: logo
             }}
             toggleSidebar={this.toggleSidebar}
@@ -123,10 +119,6 @@ class Admin extends React.Component {
             )}
           </div>
         </div>
-        <FixedPlugin
-          bgColor={this.state.backgroundColor}
-          handleBgClick={this.handleBgClick}
-        />
       </>
     );
   }

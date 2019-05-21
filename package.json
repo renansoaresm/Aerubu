@@ -1,5 +1,5 @@
 {
-  "name": "black-dashboard-react",
+  "name": "aerubu",
   "version": "1.0.0",
   "private": true,
   "homepage": "https://creativetimofficial.github.io/black-dashboard-react/#/dashboard",
@@ -37,5 +37,17 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "description": "sistema aeroviário",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renansoaresm/Aerubu.git"
+  },
+  "author": "Renan Soares Mendes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renansoaresm/Aerubu/issues"
+  }
 }

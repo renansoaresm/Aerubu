@@ -48,7 +48,7 @@ class CadastroDaCompAerea extends React.Component {
                           <Input
                             defaultValue="Rio de Janeiro"
                             placeholder="Gol"
-                            type="number"
+                            type="text"
                           />
                         </FormGroup>
                       </Col>
